@@ -17,16 +17,21 @@ group :development, :test do
 end
 
 group :development do
-  gem 'web-console',        '4.1.0'
-  gem 'rack-mini-profiler', '2.3.1'
-  gem 'listen',             '3.4.1'
-  gem 'spring',             '2.1.1'
+  gem 'web-console',           '4.1.0'
+  gem 'listen',                '3.4.1'
+  gem 'spring',                '2.1.1'
+  gem 'spring-watcher-listen', '2.0.1'
 end
 
 group :test do
-  gem 'capybara',           '3.35.3'
-  gem 'selenium-webdriver', '3.142.7'
-  gem 'webdrivers',         '4.6.0'
+  gem 'capybara',                 '3.35.3'
+  gem 'selenium-webdriver',       '3.142.7'
+  gem 'webdrivers',               '4.6.0'
+  gem 'rails-controller-testing', '1.0.5'
+  gem 'minitest',                 '5.11.3'
+  gem 'minitest-reporters',       '1.3.8'
+  gem 'guard',                    '2.16.2'
+  gem 'guard-minitest',           '2.4.6'
 end
 
 group :production do
